@@ -1,0 +1,97 @@
+body {
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  /* background-image: url("bg2.png");
+  background-repeat: no-repeat;
+  background-position: center -650px; */
+  /* background: linear-gradient(90deg, lightyellow, lightcyan); */
+  /* background: linear-gradient(70deg, lightcyan, whitesmoke); */
+  /* background: linear-gradient(180deg, rgba(255, 255, 0, 0.1), whitesmoke); */
+  background: linear-gradient(127deg, lightblue, rgba(255, 255, 255, 0) 15%),
+    linear-gradient(217deg, #f4be2c40, rgba(255, 255, 255, 0) 15%);
+
+  /* background: linear-gradient(
+      217deg,
+      rgba(255, 120, 0, 0.8) 90%,
+      rgba(255, 100, 200, 0) 90.71%
+    ), */
+  /* linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), */
+  /* linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); */
+}
+
+.container {
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  min-height: 96vh;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+  padding-right: 10px;
+}
+.logo4Mobile {
+  width: 27px;
+  height: auto;
+  padding-right: 10px;
+}
+
+.toolbarTitle {
+  flex: 1;
+  font-family: "Josefin Slab", serif !important;
+  font-weight: 900 !important;
+  /* font-family: "Waiting for the Sunrise", cursive !important; */
+  /* font-family: "Caveat", cursive !important; */
+  /* font-family: "Architects Daughter", cursive !important; */
+}
+
+.topbarButton {
+  /* color: lightcoral !important; */
+  color: slategrey !important;
+}
+
+.filterButton {
+  /* background-color: lightcoral !important;
+  color: white !important; */
+  font-size: 0.7rem !important;
+
+  /* background-color: whitesmoke !important;
+  color: steelblue !important;
+  border-color: steelblue !important; */
+  background-color: steelblue !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.MuiImageListItemBar-title {
+  font-size: 0.7rem !important;
+  line-height: 18px !important;
+  /* color: black; */
+}
+
+.handIcon {
+  cursor: pointer;
+}
+
+.mediumText {
+  font-size: small;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.landscapeView {
+  width: 650px;
+}
+
+.portraitView {
+  width: 450px;
+}
+
+/* .mobileImage {
+  width: 100%;
+} */
