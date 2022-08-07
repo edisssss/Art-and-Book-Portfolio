@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/styles";
 import Typography from "@material-ui/core/Typography";
 import Toolbar from "@material-ui/core/Toolbar";
-import stlogo from "../assets/st-logo.png";
+import stlogo from "../assets/b-logo.png";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import AboutMe from "../components/AboutMe";
 const useStyles = makeStyles((theme) => ({
