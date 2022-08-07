@@ -1,0 +1,67 @@
+export const categories = [
+  { title: "Featured", key: "featured" },
+  { title: "Art", key: "art" },
+  { title: "Pencil", key: "pencil" },
+  { title: "Watercolor", key: "watercolor" },
+  { title: "Caricature", key: "caricature" },
+  { title: "Oil", key: "oil" },
+  // { title: "Coffee-Art", key: "coffee" },
+  // { title: "Acrylic", url: "#" },
+  // { title: "Soft-Pastel", key: "softpastel" },
+
+  { title: "Charcoal", key: "charcoal" },
+  { title: "Pen", key: "pen" },
+  { title: "Others", key: "others" },
+  { title: "All", key: "all" },
+];
+
+export const picsDB = [
+  {
+    img: "21-Portrete de Familie-Aby cu fundita.jpg",
+    title: "Aby cu Fundita",
+    medium: "Art - Oil",
+    category: ["art", "featured"],
+    year: 2018,
+    mode: "landscape",
+  },
+  {
+    img: "21-Portrete de Familie-Aby la ocean.jpg",
+    title: "Aby la Ocean",
+    medium: "Digital Art - Oil",
+    category: ["art", "featured"],
+    year: 2016,
+    mode: "portrait",
+  },
+  {
+    img: "21-Portrete de Familie-Edy mai mic.jpg",
+    title: "Edy mai mic",
+    medium: "Digital Art - Oil",
+    category: ["art"],
+    year: 2009,
+    mode: "portrait",
+  },
+  {
+    img: "20-Flori-Stergar cu flori galbene.jpg",
+    title: "Stergar cu flori galbene",
+    medium: "Art - Oil",
+    category: ["art", "featured"],
+    year: 2005,
+    mode: "landscape",
+  },
+  {
+    img: "20-Flori-Maci.jpg",
+    title: "Flori Maci",
+    medium: "Art - Oil",
+    category: ["art"],
+    year: 2018,
+    mode: "landscape",
+  },
+  {
+    img: "20-Flori-Anemone.jpg",
+    title: "Flori Anemone",
+    medium: "Art- Oil",
+    category: ["art", "featured"],
+    year: 2021,
+    mode: "landscape",
+  },
+];
